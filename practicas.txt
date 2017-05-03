@@ -1,0 +1,20 @@
+Se ha llegado hasta la ampliación 4
+
+Adicionales:
+
+- He creado una función (get_better_gender_patients) que transforma los 1 y 2 de los genéros en hombre y mujer respectivamente.
+
+- He creado una función (get_limit) que recoge el limite que mete el usuario en localhost y se lo pasa a la funcion get_events
+
+- He creado dos funciones (string_to_diccionary y string_to_diccionary_second) que me pasa los datos que recoge events a diccionario para
+  poder trabajar con ellos, además si el evento que recoge no pertenece a events, (cuando limite>100 o se mete mal el nombre de la compañía o 
+  de la medicina) me devuelve un string que se analiza más abajo.
+
+- En la clase testHTTPRequestHandler(http.server.BaseHTTPRequestHandler), se procesa lo que devuelve string_to_diccionary; esto se hace 
+  ya que si lo que devuleve la funcion es el string 'html', se devuelve un html que te indica que has introducido algo mal, sino, la función 
+  devuelve events para que se transformen en lista, y después se pasen a una lista de html.
+
+- Se ha editado algo el html, cambiando el color de fondo, el color de algunos títulos, el tamaño y fuente de la letra, y se han centrado 
+  ciertos elementos.
+
+- Por último comentar que la práctica se ha subido a GitHub.
